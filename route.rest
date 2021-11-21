@@ -1,0 +1,25 @@
+GET http://localhost:8080/users
+
+###
+
+GET http://localhost:8080/users/6199d013c9dcf4de010054f9
+
+###
+
+POST http://localhost:8080/users
+Content-Type: application/json
+
+{
+    "name": "amazing girl"
+}
+
+###
+DELETE http://localhost:8080/users/6199d00fc9dcf4de010054f7
+
+###
+PATCH http://localhost:8080/users/6199ccfd626a9b27d2d57729
+Content-Type: application/json
+
+{
+    "name": "Great women"
+}
