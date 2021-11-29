@@ -10,7 +10,12 @@ POST http://localhost:8080/users
 Content-Type: application/json
 
 {
-    "name": "amazing girl"
+    "firstName": "amazing",
+    "lastName": "girl",
+    "birthYear": "1990",
+    "birthMonth": "April",
+    "cityAddress": "Flushing",
+    "stateAddress": "NY"
 }
 
 ###
